@@ -41,8 +41,8 @@ CredVault uses Stellar's native memo field to tag every XLM payment with a skill
 
 ```bash
 # Clone the repository
-git clone <repo-url>
-cd credvault
+git clone https://github.com/V1shnuuu/Whitee.git
+cd Whitee
 
 # Install dependencies
 npm install
@@ -139,6 +139,7 @@ npm start
 - ✅ Skill-tagged payments with CV:{SKILL}:{note} memo encoding
 - ✅ Real-time address validation (StrKey)
 - ✅ Balance sufficiency checking
+- ✅ Self-payment prevention (blocks sending payments to your own address)
 - ✅ Transaction history with 20 credential badges
 - ✅ Typed error handling for all Stellar failure cases
 - ✅ New account creation support (createAccount op)
