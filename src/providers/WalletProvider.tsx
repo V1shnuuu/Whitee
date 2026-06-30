@@ -30,3 +30,4 @@ export function WalletProvider({ children }: { children: React.ReactNode }) {
 export function useWalletContext(): UseWalletReturn {
   return useContext(WalletContext);
 }
+// Stellar wallet context provider

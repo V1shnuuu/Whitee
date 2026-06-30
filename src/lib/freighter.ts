@@ -155,3 +155,4 @@ export function getStoredAddress(): string | null {
   if (typeof window === 'undefined') return null;
   return localStorage.getItem(STORAGE_KEY);
 }
+// Stellar wallet implementation

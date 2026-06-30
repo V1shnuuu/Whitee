@@ -6,6 +6,7 @@
 
 import { motion } from 'framer-motion';
 import { Shield } from 'lucide-react';
+import WalletConnect from './WalletConnect';
 
 export default function Navbar() {
   return (
@@ -31,14 +32,17 @@ export default function Navbar() {
             </span>
           </div>
 
-          <div
-            className="flex items-center gap-1.5 px-3 py-1 rounded-full
-                        bg-teal-500/10 border border-teal-500/20"
-          >
-            <div className="w-1.5 h-1.5 rounded-full bg-teal-400 animate-pulse" />
-            <span className="text-xs font-medium text-teal-300 uppercase tracking-wider">
-              TESTNET ONLY
-            </span>
+          <div className="flex items-center gap-4">
+            <div
+              className="flex items-center gap-1.5 px-3 py-1 rounded-full
+                          bg-teal-500/10 border border-teal-500/20"
+            >
+              <div className="w-1.5 h-1.5 rounded-full bg-teal-400 animate-pulse" />
+              <span className="text-xs font-medium text-teal-300 uppercase tracking-wider hidden sm:inline">
+                TESTNET ONLY
+              </span>
+            </div>
+            <WalletConnect />
           </div>
         </div>
       </div>

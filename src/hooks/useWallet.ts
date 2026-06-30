@@ -96,3 +96,4 @@ export function useWallet(): UseWalletReturn {
     clearError,
   };
 }
+// Stellar wallet hook
